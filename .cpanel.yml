@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/scarlett/public_html/
+    - export DEPLOYPATH=/home1/scarlett/scarlet/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
